@@ -1,0 +1,112 @@
+/* for computers */
+body{
+    background-color: rgba(58, 58, 58, 0.815);
+    color: white;
+    margin-top: 6rem;
+}
+@media only screen and (min-width: 992px) {
+    .Avatar-section{
+        padding: 2rem 1.25rem 2rem 6rem;
+        width: 540px;
+    }
+    .Avatar-section img{
+        display: block;
+        width: 480px;
+        height: 480px;
+        margin: auto;
+        border-radius: 100%;
+        border: solid thick white;
+        padding: 0.75rem;
+        
+    }
+    .Content-section{
+        width: 450px;
+        position: relative;
+        top: -30rem;
+        left: 40rem;
+        border-left: solid white thick;
+        padding-left: 2rem;
+    }
+    .Content-section br{
+        margin-bottom: 1.25rem !important;
+    }
+    .Content-section .Name{
+        font-size: 48px;
+        letter-spacing: 2.5px;
+    }
+    .Content-section .Role{
+        text-decoration: underline;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .Content-section a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1rem 2rem;
+        margin: 0.25rem;
+        border: thin solid white;
+        border-radius: 10px;
+
+    }
+    .Content-section a:hover{
+        background-color: white;
+        color: black;
+    }
+}
+
+
+/* for medium devices */
+@media only screen and (min-width: 780px) {
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+    .Avatar-section{
+        padding: 0rem 0rem 0.5rem 0rem;
+        width: 100%;
+        margin-top: -3rem;
+    }
+    .Avatar-section img{
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        display: block;
+        margin: auto;
+        border: solid thick white;
+        padding: 0.75rem;
+    }
+    .Content-section{
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
+        border-left: solid white thin;
+        padding-left: 0.75rem;
+    }
+    .Content-section .Name{
+        font-size: 36px;
+        letter-spacing: 1.25px;
+    }
+    .Content-section br{
+        margin-bottom: 0.65rem !important;
+    }
+    .Content-section .Role{
+        text-decoration: underline;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    .Content-section a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1rem 2rem;
+        border: thin solid white;
+        border-radius: 10px;
+
+    }
+    .Content-section a:hover{
+        background-color: white;
+        color: black;
+    }
+}
